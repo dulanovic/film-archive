@@ -1,0 +1,138 @@
+/*TEMPLATE*/
+table {
+	border: 2px solid #B30000;
+}
+
+table td {
+	color: #000000;
+}
+
+table td a {
+	color: #000000;
+}
+
+table td a:hover {
+	color: #B30000;
+}
+
+table th {
+	background-color: #B30000;
+	color: #FFFFFF;
+	border: #B30000;
+}
+
+table tr:hover {
+	background-color: #F1F1F1;
+}
+
+hr {
+	border-top: 2px solid #B30000;
+}
+
+.button1 {
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 2px solid #000000;
+}
+
+.button1:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+.button2 {
+	background-color: #FFFFFF;
+	color: #B30000;
+	border: 2px solid #B30000;
+}
+
+.button2:hover {
+	background-color: #B30000;
+	color: #FFFFFF;
+	border: 2px solid #B30000;
+}
+
+.button3 {
+	background-color: #FFFFFF;
+	color: #008000;
+	border: 2px solid #008000;
+}
+
+.button3:hover {
+	background-color: #008000;
+	color: #FFFFFF;
+	border: 2px solid #008000;
+}
+
+
+/*MENU*/
+#stavkemeni {
+	background-color: #171717;
+}
+
+.no-dropdown a, #menubtn a {
+	color: #FFFFFF;
+}
+
+.no-dropdown a:hover, #menubtn a:hover {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+
+/*GLAVNA STRANA*/
+#sadrzaj {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+/*FILM*/
+#tekst a {
+	color: #000000;
+}
+
+#tekst a:hover {
+	color: #B30000;
+}
+
+.autosuggest table td {
+	background-color: #F1F1F1;
+}
+
+.autosuggest td:hover {
+	background-color: #E3E3E3;
+}
+
+/*FILMOVI*/
+#filmovi  {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#autosuggest-pretraga td:hover {
+	background-color: #E3E3E3;
+}
+
+#autosuggest-pretraga tr {
+	border-bottom: 2px solid #B30000;
+}
+
+#autosuggest-pretraga tr:first-child {
+	border-top: 2px solid #B30000;
+}
+
+#autosuggest-pretraga img {
+	border: 1px solid #B30000;
+}
+
+
+/*PRETRAGA*/
+#tabela-pretraga-filmovi tr:hover {
+	background-color: #F1F1F1;
+}
+
+#tabela-pretraga-reziseri tr:hover {
+	background-color: #F1F1F1;
+}

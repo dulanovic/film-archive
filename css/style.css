@@ -1,0 +1,402 @@
+/*TEMPLATE*/
+body {
+	font-family: Courier;
+	cursor: default;
+	background-size: 1366px 768px;
+}
+
+#strana {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.8em;
+	display: block;
+	color: #FFFFFF;
+}
+
+#podaci {
+	float: left;
+	max-width: 300px;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#sat {
+	float: right;
+	max-width: 100px;
+	padding-right: 10px;
+	margin: 0;
+	padding-top: 5px;
+}
+
+table {
+	font-family: Courier;
+	text-align: left;
+	border-collapse: collapse;
+	width: 950px;
+}
+
+table img {
+	vertical-align: middle;
+}
+
+table img:hover {
+	opacity: 0.8;
+}
+
+table td {
+	font-size: 15px;
+}
+
+table td a {
+	color: #000000;
+	text-decoration: none;
+}
+
+table th {
+	font-size: 18px;
+	text-align: center;
+}
+
+table th img {
+	padding-left: 2px;
+	width: 12px;
+	height: 8px;
+}
+
+table th a {
+	text-decoration: none;
+}
+
+.button {
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Courier;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#textfield-pretraga {
+	margin: 0 0 10px 25px;
+	clear: both;
+}
+
+#textfieldPretraga {
+	font-family: Courier;
+	font-size: 16px;
+}
+
+hr {
+	height: 1px;
+	border: 0;
+}
+
+
+/*MENU*/
+#stavkemeni {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.no-dropdown {
+	float: left;
+}
+
+.no-dropdown a, #menubtn a {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#menu {
+	font-size: 16px;
+}
+
+#menubtn {
+	float: right;
+}
+
+.prikaz {
+	display: inline-block;
+}
+
+
+/*GLAVA STRANA*/
+#sadrzaj {
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0.9;
+	padding-bottom: 20px;
+}
+
+#sadrzaj h1 {
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#sadrzaj h2 {
+	margin: 15px 150px 20px;
+}
+
+.slike-naslovna {
+	display: block;
+	width: 700px;
+	height: auto;
+	margin: 20px auto;
+}
+
+
+/*FILMOVI*/
+#prikaz-filmovi .poster-male img {
+	width: 33px;
+	height: 40px;
+}
+
+#autosuggest-pretraga img {
+	width: 50px;
+	height: auto;
+}
+
+#autosuggest-pretraga table {
+	border-style: none;
+}
+
+#autosuggest-pretraga a:hover {
+	text-decoration: underline;
+}
+
+
+/*FILM*/
+#tekst h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#tekst h2, #tekst h3 {
+	text-align: center;
+}
+
+#podaci-o-filmu {
+	display: inline-block;
+	width: 1000px;
+	margin-top: 50px;
+	font-family: Courier;
+	font-size: 18px;
+}
+
+#poster {
+	float: left;
+	width: 300px;
+}
+
+#poster img {
+	width: 300px;
+	height: auto;
+	margin-left: 100px;
+	padding-right: 0;
+	margin-bottom: 20px;
+}
+
+#tekst {
+	text-align: justify;
+	width: 550px;
+	float: right;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+form {
+	top: -20px;
+}
+
+.kljuc {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.vrednost {
+	margin-top: 0;
+	display: inline-block;
+}
+
+.ispis-validacija {
+	display: inline;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+#tekst input {
+	margin-bottom: 20px;
+	font-family: Courier;
+	font-size: 16px;
+}
+
+#tekst textarea {
+	font-family: Courier;
+	font-size: 16px;
+	display: block;
+}
+
+.autosuggest {
+	margin: 0;
+	padding-right: 0;
+}
+
+#tekst button {
+	margin-top: 20px;
+}
+
+#tekst img:hover {
+	opacity: 0.8;
+}
+
+#tekst a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#imdb-link, .img-link {
+	width: 80px;
+	display: block;
+}
+
+#accordion-omotac {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.accordion {
+	cursor: pointer;
+	padding: 20px;
+	margin: 20px 0;
+	width: 90%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 1s;
+	font-family: Courier;
+	font-size: 18px;
+}
+
+.accordion:after {
+	content: '\02795';
+	font-size: 18px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.accordion.aktivan:after {
+	content: "\2796";
+}
+
+.accordion-sadrzaj {
+	padding: 0 60px;
+	display: none;
+	text-align: left;
+	font-size: 16px;
+	transition: 0.6s;
+}
+
+.accordion-sadrzaj * {
+	margin-bottom: 5px;
+}
+
+.accordion-sadrzaj.prikazi-accordion {
+	display: block;
+}
+
+
+/*REŽISERI*/
+#prikaz-reziseri .zastave img {
+	width: 35px;
+	height: auto;
+}
+
+#prikaz-reziseri .slike-male img {
+	width: 35px;
+	height: 50px;
+}
+
+
+/*REŽISER*/
+.reziser-zastava {
+	width: 45px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#filmovi-rezisera td {
+	font-size: 16px;
+}
+
+#filmovi-rezisera-tabela {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#filmovi-rezisera-tabela img {
+	display: block;
+	margin: 10px auto 5px;
+	width: 270px;
+	height: 360px;
+}
+
+/*PRETRAGA*/
+#tabela-pretraga-filmovi img {
+	width: 150px;
+	height: 200px;
+}
+
+#tabela-pretraga-filmovi a:hover {
+	text-decoration: underline;
+}
+
+#tabela-pretraga-reziseri {
+	max-width: 600px;
+}
+
+#tabela-pretraga-reziseri img {
+	width: 150px;
+	height: 215px;
+}
+
+#tabela-pretraga-reziseri a:hover {
+	text-decoration: underline;
+}
+
+#tabela-pretraga-reziseri .zastave img {
+	width: 45px;
+	height: auto;
+}
+
+#tabela-pretraga-filmovi, #tabela-pretraga-reziseri {
+	border: none;
+}
+
+
+/*LOGIN*/
+#login-tabela {
+	width: 330px;
+	margin: 30px auto;
+	text-align: left;
+	vertical-align: middle;
+	border-style: none;
+}
+
+#login-tabela input {
+	font-family: Courier;
+}

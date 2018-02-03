@@ -1,0 +1,139 @@
+/*TEMPLATE*/
+table {
+	border: 2px solid #FF4C4C;
+}
+
+table td {
+	color: #FFFFFF;
+}
+
+table td a {
+	color: #FFFFFF;
+}
+
+table td a:hover {
+	color: #FF4C4C;
+}
+
+table th {
+	background-color: #FF4C4C;
+	color: #FFFFFF;
+	border: #FF4C4C;
+}
+
+table tr:hover {
+	background-color: #0F0F0F;
+}
+
+hr {
+	border-top: 2px solid #FF4C4C;
+}
+
+.button1 {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+.button1:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 2px solid #FFFFFF;
+}
+
+.button2 {
+	background-color: #B30000;
+	color: #FFFFFF;
+	border: 2px solid #B30000;
+}
+
+.button2:hover {
+	background-color: #FFFFFF;
+	color: #B30000;
+	border: 2px solid #FFFFFF;
+}
+
+.button3 {
+	background-color: #008000;
+	color: #FFFFFF;
+	border: 2px solid #008000;
+}
+
+.button3:hover {
+	background-color: #FFFFFF;
+	color: #008000;
+	border: 2px solid #FFFFFF;
+}
+
+
+/*MENU*/
+#stavkemeni {
+	background-color: #FFFFFF;
+}
+
+.no-dropdown a, #menubtn a {
+	color: #000000;
+}
+
+.no-dropdown a:hover, #menubtn a:hover {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+
+/*FILM*/
+#tekst a {
+	color: #FFFFFF;
+}
+
+#tekst a:hover {
+	color: #FF4C4C;
+}
+
+.autosuggest table td {
+	background-color: #0F0F0F;
+}
+
+.autosuggest td:hover {
+	background-color: #1D1D1D;
+}
+
+
+/*GLAVA STRANA*/
+#sadrzaj {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+/*FILMOVI*/
+#filmovi {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#autosuggest-pretraga td:hover {
+	background-color: #1D1D1D;
+}
+
+#autosuggest-pretraga tr {
+	border-bottom: 2px solid #FF4C4C;
+}
+
+#autosuggest-pretraga tr:first-child {
+	border-top: 2px solid #FF4C4C;
+}
+
+#autosuggest-pretraga img {
+	border: 1px solid #FF4C4C;
+}
+
+
+/*PRETRAGA*/
+#tabela-pretraga-filmovi tr:hover {
+	background-color: #0F0F0F;
+}
+
+#tabela-pretraga-reziseri tr:hover {
+	background-color: #0F0F0F;
+}

@@ -1,0 +1,17 @@
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#menu").load("import/menu.php");
+	$("footer").load("import/footer.html");
+
+	var broj = Math.floor(Math.random() * 12 + 1);
+	$("body").css("background-image", "url(slike/bg_slike/bg" + broj + ".jpg)");
+	$("body").css("background-repeat", "no-repeat");
+	$("body").css("background-attachment", "fixed");
+});
+</script>
+</head>
+<body onload="proveriCookie()">
+	<div id="strana">
+		<div id="header"></div>
+		<div id="menu"></div>
+		<div id="sadrzaj">
